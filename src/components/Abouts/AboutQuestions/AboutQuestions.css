@@ -1,0 +1,115 @@
+.aboutQuestions {
+    margin-top: 4rem;
+}
+
+.aboutQuestionsWrapper {
+    margin-top: 2rem;
+}
+
+.aboutQuestionItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.aboutQuestionRight {}
+
+.aboutQuestionAccordionBox {
+    border: 1px solid #EBEEEE;
+    padding: 1rem;
+    width: 500px;
+}
+
+.aboutQuestionAccrodionTitleIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accrodionTitle {
+    font-family: iranMedium;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.accrodionButton {
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: #F2F6F7;
+}
+
+.accrodionIcon {
+    font-size: 1.5rem;
+    color: #10ab81;
+}
+
+.aboutQuestionAccordionContent {
+    margin-top: 0.7rem;
+}
+
+.accrodionParaphText {
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #7F7A7D;
+}
+
+.aboutQuestionLeft {}
+
+.aboutQuestionLeftImg {
+    width: 500px;
+}
+
+/*  Media Query  */
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .aboutQuestionItems {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .aboutQuestionLeftImg {
+        max-width: 450px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .aboutQuestionLeftImg {
+        max-width: 250px;
+    }
+
+    .aboutQuestionAccordionBox {
+        max-width: 350px;
+    }
+
+    .accrodionTitle {
+        font-size: 0.9rem;
+    }
+}

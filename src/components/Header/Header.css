@@ -1,0 +1,132 @@
+.header{
+}
+.headerWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.headerLeft{
+    display: flex;
+    flex-basis: 60%;
+    max-width:670px ;
+    position: relative;
+}
+.headerLeftItem{
+    cursor: pointer;
+}
+.headeerLinkImgLeft{
+        max-width: 650px;
+        height: inherit;
+}
+
+.headerLeftContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    margin: 0 1rem;
+}
+.headerLeftContentText{
+    margin-bottom: 2rem;
+    color: #10AB81;
+    font-family: iranLight;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.headerLeftContentTitle{
+    margin-bottom: 2rem;
+    font-family: iranBlock;
+    font-weight: 600;
+    font-size: 2rem;
+    max-width: 20rem;
+}
+.headerLeftContentButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 150px;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: #10AB81;
+    font-family: iranMedium;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+.headerLeftContentButton:hover{
+    background-color: #ffff;
+    color: #10AB81;
+}
+
+.headerright{
+    flex-basis: 40%;
+    max-width: 440px;
+}
+.headerRightItem{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+.headerLink{
+
+}
+.headerLinkImgRight{
+    max-width: 440px;
+    height: 225px;
+    transition: all 0.3s linear;
+}
+.headerLinkImgRight:hover{
+    opacity: 0.75;
+}
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .headerWrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .headerLeft{
+        margin-bottom: 1rem;
+    }
+    .headerright{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+    .headeerLinkImgLeft{
+        max-width: 520px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .headerLeft{
+        display: none;
+    }
+    .headerLinkImgRight{
+        max-width: 300px;
+    }
+}

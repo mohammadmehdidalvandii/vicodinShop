@@ -1,0 +1,159 @@
+.contactMessage {
+    margin-bottom: 4rem;
+}
+
+.contactMessageWrapper {}
+
+.contactMessageForm {
+    border: 1px solid #E4ECF2;
+    padding: 2rem 2rem;
+}
+
+.contactMessgeTitle {
+    font-family: iranBold;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.contactMessageInputBox {
+    margin: 2rem 0;
+    max-width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contactMessageInputNameIcon,
+.contactMessageInputEmailIcon,
+.contactMessageInputSubjectIcon,
+.contactMessageInputPhoneIcon {
+    width: 48%;
+    height: 3rem;
+    border: 1px solid #E4ECF2;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contactMessgaeInputName,
+.contactMessgaeInputEmail,
+.contactMessgaeInputSubject,
+.contactMessgaeInputPhone {
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 3rem;
+    cursor: pointer;
+    padding: 0 0.5rem;
+}
+
+.contactMessageInputBox input::placeholder {
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #6F828C;
+}
+
+.contactMessageInputIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    max-width: 10%;
+    height: 3rem;
+    background-color: #fff;
+}
+
+.contactMessageIcon {
+    color: #10ab81;
+
+}
+
+.contactMessageClient {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.contactMessageText {
+    width: 100%;
+    border: 1px solid #E4ECF2;
+}
+
+.contactMessageInfoButton {
+    display: flex;
+    flex-direction: column;
+}
+
+.contectMessageCheckBob {
+    font-family: iranLight;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6F828C;
+    margin-left: 0.3rem;
+}
+
+.contactMessageButton {
+    display: block;
+    outline: none;
+    border: 1px solid #E4ECF2;
+    margin-top: 1rem;
+    width: 130px;
+    height: 2.5rem;
+    background-color: #10ab81;
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.contactMessageButton:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/*  Media Query  */
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .contactMessageInputBox {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .contactMessageInputNameIcon,
+    .contactMessageInputEmailIcon,
+    .contactMessageInputSubjectIcon,
+    .contactMessageInputPhoneIcon {
+        width: 100%;
+        height: 3rem;
+        margin-bottom: 0.7rem;
+    }
+}

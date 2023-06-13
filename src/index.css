@@ -1,0 +1,37 @@
+:root{
+ 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  direction: rtl;
+}
+.container{
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@font-face {
+  font-family:iranLight ;
+  src: url(../public/font/IRANSansWeb_Light.woff);
+}
+@font-face {
+  font-family:iranMedium ;
+  src: url(.././public/font/IRANSansWeb_Medium.woff);
+}
+@font-face {
+  font-family:iranBlack;
+  src: url(.././public/font/IRANSansWeb_Black.woff);
+}
+@font-face {
+  font-family:iranBold ;
+  src: url(../public/font/IRANSansWeb_Bold.woff);
+}

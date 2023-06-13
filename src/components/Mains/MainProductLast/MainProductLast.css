@@ -1,0 +1,154 @@
+.mainProductLast{
+    margin-top: 4rem;
+}
+.productLastWrapper{
+    margin-top: 2rem;
+
+}
+.productLastTop{
+
+}
+.productLastItems{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.productLastItem{
+    display: block;
+    margin-bottom: 1rem;
+    border: 2px solid #F6F6F6;
+    max-width: 250px;
+    position: relative;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.productLastItem:hover{
+    box-shadow: 0 0 10px 10px #F6F7F7;
+}
+.productLastItem:hover .productLastButton{
+    opacity: 1;
+    transform: scale(1);
+}
+.productLastImgText{
+    display: block;
+    position: relative;
+}
+.productLastImg{
+    max-width: 250px;
+}
+.productLastText{
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 3rem;
+    height: 0,8rem;
+    background-color: #10AB81;
+    color: #fff;
+    font-family: iranLight;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.productLastButton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 3px solid #10AB81;
+    border-radius: 0.4rem;
+    opacity: 0;
+    transform: scale(0.4);
+}
+.ProductLastBtnLink{
+    font-size: 1.3rem;
+    color: #5C727D;
+}
+.productLastBtnIcon{
+    transition: all 0.3s linear 
+}
+.productLastBtnIcon:hover{
+    color: #10AB81;
+    transform: scale(1.1);
+}
+.productLastTitle{
+    text-align: center;
+    margin: 1rem 0;
+    font-family: iranMedium;
+    font-size: 1rem;
+    color: #071C1F;
+}
+.productLastPrice{  
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: iranLight;
+    font-size: 0.8rem;
+    color: #10AB81;
+}
+
+.productLastDown{
+    margin-top: 3rem;
+}
+.productDownBoxLinkImg{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.productDownBoxLink{
+    max-width: 350px;
+    overflow: hidden;
+    margin: 1rem 1rem;
+}
+.productDownBoxImg{
+    max-width: 350px;
+    transition: all 0.3s linear;
+}
+.productDownBoxImg:hover{
+    transform: scale(1.1);
+}
+
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .productDownBoxImg{
+        max-width: 300px;
+
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .productDownBoxLinkImg{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .productLastItems{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

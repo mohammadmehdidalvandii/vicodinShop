@@ -1,0 +1,266 @@
+.LoginSinginContent {
+    margin: 4rem 0;
+}
+
+.LoginSinginWrapper {}
+
+.LoginSiningTitles {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.LoginSinginTitle {
+    font-family: iranBlack;
+    font-size: 2rem;
+}
+
+.LoginSinignTitleText {
+    font-family: iranLight;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #657A84;
+    margin-top: 0.5rem;
+}
+
+.LoginContent {}
+
+.LoginContentWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.LoginContentForm {
+ width: 500px;
+}
+
+.LoginContentFormBox {
+    background-color: #657A84;
+    margin: 1rem 0;
+    height: 3rem;
+    border: 1px solid #E4ECF2;
+    overflow: hidden;
+}
+
+.LoginContentFormInput{
+    width: 100%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    padding: 0 0.5rem;
+}
+.LoginContentFormInput::placeholder{
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #8CB2B2;
+}
+
+.LoginContentFormButton,
+.LoginContentForSingin{
+    display: block;
+    margin-top: 1rem;
+    width: 130px;
+    height: 2rem;
+    font-family: iranLight;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid #8CB2B2;
+    border-radius: 0.3rem;
+    outline: none;  
+    background-color: #10ab81;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+.LoginContentFormButton:hover{
+    background-color: #fff;
+    color: #000;
+}
+.LoginContentFormForget{
+    display: block;
+    text-decoration: none;
+    margin-top: 1rem;
+    font-family: iranLight;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #657A84;
+    transition: all 0.3s linear;
+}
+.LoginContentFormForget:hover{
+    color: #10ab81;
+}
+.LoginContentNotAccount {
+ 
+}
+
+.LoginContentNotAccountBox {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.LoginContentTitle {
+    font-family: iranBold;
+    font-weight: 400;
+    color: #000;
+}
+
+.loginContentText {
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: 600;   
+    color: #8CB2B2;
+}
+
+.LoginContentForSingin {
+    margin: 2rem auto;
+}
+
+.SinginContent{
+}
+.singinContentWrapper{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.singinContentForm{
+    width: 350px;
+}
+.singinContentFormBox{
+    margin: 1rem 0;
+    width: 100%;
+    height: 3.1rem;
+    border: 1px solid #E4ECF2;
+    border-radius: 0.3rem;
+    overflow: hidden;
+}
+.singinContentFormInput{
+    width: 100%;
+    height: 3.1rem;
+    border: none;
+    outline: none;
+    padding: 0 0.5rem;
+    font-family: iranLghit;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #61727D;
+}
+.singinContentFormInput::placeholder{
+    font-family: iranLghit;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #657A84;
+}
+.singinContentCheckBox{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+}
+.singinContentTextCheckBox{
+    display: flex;
+    align-items: center;
+    font-family: iranLight;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #8CB2B2;
+}
+.singinContentCheck{
+    margin-left: 0.3rem;
+    border: 1px solid #E4ECF2;
+}
+.singinContentButton{
+    display: block;
+    width: 130px;
+    height: 2.5rem;
+    background-color: #10ab81;
+    border: 1px solid #E4ECF2;
+    border-radius: 0.3rem;
+    outline: none;
+    font-family: iranLight;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+.LoginSingiAlert,
+.SingiAlert{
+    font-family: iranLight;
+    font-size: 0.7rem;
+    font-weight: bolder;
+}
+.singinContentDiscirption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.singinContentDisTitle{
+    font-family: IranLight;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #61727D;
+    margin-bottom: 1rem;
+}
+.singinContnentDisLaw{
+    text-decoration: none;
+    font-family: IranLight;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #61727D;
+    margin-bottom: 1rem;
+    transition: all 0.3 linear;
+}
+.singinContnentDisLaw:hover{
+    color: #10ab81;
+}
+.LoginSinginBtn{
+    text-decoration: none;
+    font-family: IranLight;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #657A84;
+    transition: all 0.3 linear;
+}
+.LoginSinginBtn:hover{
+    color: #10ab81;
+}
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .LoginContentWrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .LoginContentNotAccount{
+        margin-top: 2rem;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+    .LoginContentForm,
+    .singinContentForm{
+        max-width: 100%;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}

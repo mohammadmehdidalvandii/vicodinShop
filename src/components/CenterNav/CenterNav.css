@@ -1,0 +1,200 @@
+.centerNav{
+    padding: 1.2rem 0;
+}
+.centerNavWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.centerWrapperItem{
+
+}
+.centerNavLogo{
+
+}
+.centerNavLogoImg{
+
+}
+.centerWrapperItem{
+}
+
+.centerNavSearch{
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem -0.5rem rgba(0,0,0,0.50);
+    width: 450px;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.centerNavSearchInput{
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    width: 95%;
+    height: 2.5rem;
+    padding: 0 0.5rem;
+}
+.centerNavSearchInput::placeholder{
+    font-family: iranLight;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.centerNavSearchIcon{
+    font-size: 1rem;
+    color: #656565;
+}
+.centerWrapperItemBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.centerNavAccount{
+}
+.centerNavAccountIcon{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    transition: all 0.3s linear;
+}
+.centerNavAccountIcon:hover{
+    color: #10AB81;
+}
+.centerNavBasket{
+    transition: all 0.3s linear;
+}
+.centerNavBasket:hover .centerNavBasketIcon {
+    color: #10AB81;
+}
+.centerNavBasketLink{
+    display: flex;
+    position: relative;
+    color: #111;
+}
+.centerNavBasketIcon{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: #111;
+}
+.centerNavBasketCount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1rem;
+    top: -0.3rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #10AB81;
+    color: #fff;
+    font-size: 0.6rem;
+}
+.centerNavUserBasket{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: iranLight;
+    cursor: pointer;
+}
+.centerNavUserBasketText{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.centerNavUserBasketPrice{
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: #10AB81;
+}
+
+.centerNavBasketLinkTooltip{
+    position: relative;
+    display: inline-block;
+}
+ .centerNavBasketLinkTooltip .centerNavBasketLinksTooltipContent{
+    visibility: hidden;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #DEE2E6;
+    text-align: right;
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: 80%;
+    margin-left: -40px;
+
+}
+.centerNavBasketLinkTooltip:hover .centerNavBasketLinksTooltipContent{
+    visibility: visible;
+}
+.itemsTooltipLinks{
+    list-style: none;
+}
+.itemTooltipLink{
+    margin: 1rem 0;
+}
+.LinkTooltipPage{
+    text-decoration: none;
+    margin-right: 0.5rem;
+    font-family: iranLight;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #111;
+}
+.LinkTooltipPage:hover{
+    color: #10AB81;
+}
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+   
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .centerNavWrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .centerWrapperItem{
+        margin-bottom: 1rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .centerNavSearch{
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+    .centerNavWrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .centerWrapperItem{
+        margin-bottom: 1rem;
+    }
+}

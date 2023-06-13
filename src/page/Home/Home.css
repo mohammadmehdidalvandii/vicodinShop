@@ -1,0 +1,36 @@
+.menuDownNav-res,
+.navCenter-res{
+    display: none;
+}
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .menuDownNav-res,
+    .navCenter-res{
+        display: block;
+
+    }
+    .downNav-menu{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}

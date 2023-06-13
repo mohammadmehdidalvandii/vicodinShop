@@ -1,0 +1,121 @@
+.mainWebLog{
+    margin-top: 4rem;
+}
+.mainWebLogWrapper{
+}
+.mainWebLogTitles{
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.mainWebLogText{
+    width: 150px;
+    height: 2.5rem;
+    background-color: #E6F5F1;
+    border-radius: 1rem;
+    color: #10Ab81;
+    font-family: iranLight;
+    font-weight: 500;
+    padding: 0.3rem 0.8rem;
+    margin: 1.2rem 0;
+}
+.mainWebLogItems{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.mainWebLogItem{
+    max-width: 370px;
+    border: 1px solid #E6F5F1;
+    box-shadow: 0 0 10px 5px #F3F4F6;
+    margin: 1.4rem  1rem;
+}
+.mainWebLogImage{
+    display: block;
+    overflow: hidden;
+}
+.mainWebLogImg{
+    max-width: 350px;
+}
+.mainWebLogPerson{
+    margin: 1.4rem 0;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: iranLight;
+}
+.mainWebLogName{
+    font-size: 1rem;
+    color: #6D818B;
+}
+.mainWebLogPersonIcon{
+    margin-left: 0.3rem;
+    color: #10ab81;
+}
+.mainWebLogJob{
+    font-size: 1rem;
+    color: #6D818B;
+}
+.mainWebLogTitleName{
+    padding: 0 1rem;
+    font-family: iranBlack;
+    font-size: 1rem;
+}
+.mainWebLogInfo{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    border-top: 1px solid #E6F5F1;
+    font-family: iranLight;
+    font-size: 0.9rem;
+}
+.mainWebLogDataText{
+    margin-top: 1rem;
+}
+.mainWebLogDataIcon{
+    margin-left: 0.3rem;
+    color: #10Ab81;
+}
+.mainWebLogDataTxt{
+    color: #6D818B;
+}
+.mainWebLogMore{
+    text-decoration: none;
+    font-weight: 300;
+    color: #10Ab81;
+    transition: all 0.3 linear;
+}
+.mainWebLogMore:hover{
+    color: black;
+}
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .mainWebLogItems{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}

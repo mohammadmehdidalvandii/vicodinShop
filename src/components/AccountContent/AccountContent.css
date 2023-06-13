@@ -1,0 +1,296 @@
+.accountContent{
+    margin: 4rem 0;
+}
+.accountContentWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.accountcontentMenu{
+    flex-basis: 30%;
+}
+.accountContentItems{
+    display: block;
+    list-style: none;
+}
+.accountContentItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    border: 1px solid #E5EAEE;
+    height: 3.5rem;
+    cursor: pointer;
+    transition: all 0.3 linear;
+}
+.accountContentItem:hover .accountContentItmeText{
+    color: #10ab81;
+}
+.accountContentItem:hover .accountContentItmeIcon{
+    color: #10ab81;
+}
+.accountContentItemActive{
+    background-color: #171B2A;
+    color: #fff;
+}
+.accountContentItmeText{
+    font-family: iranBold;
+    font-size: 1rem; 
+    font-weight: 600;
+    color: #9EB4DA;
+}
+.accountContentItmeIcon{
+    font-size: 1rem;
+    color: #9EB4DA;
+}
+
+.accountContentbox{
+    flex-basis: 70%;
+}
+.accountContentDahsboard{
+        margin-top: 2rem;
+}
+.accountContentDashboardUserName{
+    display: block;
+    text-align: center;
+    background-color: #F2F6F7;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1rem;
+}
+.dashboardUserNameText{
+    font-family: iranLight;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #000;
+}
+.dashboardUserNameLink{
+    text-decoration: none;
+    color: #171B2A;
+}
+.dashboardUserNameLink:hover{
+    color: #10ab81;
+}
+.accountContentDashboardDesciption{
+    display: block;
+    background-color: #F2F6F7;
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+}
+.dashboardDescriptionText{
+    font-family: iranLight;
+    font-size: 0.9rem ;
+    font-weight: 500;
+    color: #393b44;
+}
+
+.accountContentOrder{
+    display: block;
+    
+    width: 100%;
+}
+.accountContentTable{
+     font-family:iranLight;
+     border-collapse: collapse;
+    width: 100%;
+}
+.accountContentTableTitles{
+
+}
+.accoutContenetTableTitle{
+   border: 1px solid #dddddd;
+  text-align: right;
+  padding: 8px;
+  font-size: 1.1rem ;
+  font-weight: 600;
+  color: #4D5653;
+}
+.accoutContenetTableTitle:nth-child(even){
+    background-color: #F7F8FA;
+}
+.accounContentTableText{
+   border-bottom: 1px solid #dddddd;
+   border-left: 1px solid #dddddd;
+   border-right: 1px solid #dddddd;
+  text-align: right;
+  padding: 8px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #393b44;
+}
+.accounContentTableText:nth-child(odd){
+    background-color: #F7F8FA;
+}
+.accounContentTableTextLink{
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.accounContentTableTextLink:hover{
+    color: #10ab81;
+}
+
+.accountContentDonwLoad{
+    display: block;
+    text-align: center;
+    background-color: #F2F6F7;
+    width: 100%;
+    height: 3rem;
+    padding: 1rem 1rem;
+}
+.accountContentDownLoadDecsiption{
+    font-family: iranLight;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.accountContentAddress{
+
+}
+.accountContentAddressText{
+      display: block;
+    text-align: center;
+    background-color: #F2F6F7;
+    width: 100%;
+    height: 3rem;
+    padding: 1rem 1rem;
+}
+.accountContentAddressDecsription{
+    font-family: iranLight;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #000;
+}
+.menuAddres{
+    
+    margin-top: 3rem;
+}
+.menuAddressItems{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menuAddressItem{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E5EAEE;
+    border-radius: 0.3rem;
+    padding: 1rem 1rem;
+    width: 350px;
+    margin-bottom: 1rem;
+}
+.menuAddressItem:hover{
+    background-color: #F7F8FA;
+}
+.menuAddressItemTitle{
+    font-family: iranBlack;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #171B2A;
+}
+.menuAddressItemUserName,
+.menuAddressItemAdd,
+.menuAddressItemPhone{
+    font-family: iranLight;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #393b44;
+    margin-bottom: 0.4rem;
+}
+
+.accountContentAccounts{
+
+}
+.accountContentDetails{
+    border: 1px solid #E5EAEE;
+}
+.accountContentDetailsItems{
+    list-style: none;
+    padding: 1.2rem;
+}
+.accounContentDetailsItem{
+    display: flex;
+    align-items: center;
+    margin: 0.7rem 0;
+}
+.accountContentDetailsTitle{
+    margin-left: 0.4rem;
+    font-family: iranBold;
+    font-size: 1.2rem;
+    font-weight: 600; 
+    color: #171B2A;
+}
+.accountContentDetailsText{
+    font-family: iranLight;
+    font-size: 1rem;
+    font: 2400px;
+    color: #393b44;
+    background-color: #F2F6F7;
+    padding: 0.3rem 0.6rem;
+border-radius: 0.3rem;
+}
+.accountContentDetailsButton{
+text-decoration: none;
+display: block;
+text-align: center;
+width: 130px;
+height: 2.5rem;
+padding: 0.5rem 0;
+margin-top: 2rem;
+border: 2px solid #F2F6F7;
+background-color: #10ab81;
+font-family: iranLight;
+font-size: 0.9rem;
+font-weight: 600;
+color: #fff;
+border-radius: 0.3rem;
+transition: all 0.3 linear;
+} 
+.accountContentDetailsButton:hover{
+    background-color: #fff;
+    color: #171B2A;
+}  
+
+.accountContentExit{
+    text-decoration: none;
+    font-family: iranBlack;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #171B2A;
+    transition: all 0.3s linear;
+}
+.accountContentExit:hover{
+    color: #10ab81;
+}
+
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .accountContentWrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}

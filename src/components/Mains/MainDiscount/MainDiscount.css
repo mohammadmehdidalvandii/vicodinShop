@@ -1,0 +1,76 @@
+.mainDiscount{
+    background: url(../../../.././public/images/Main-1.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 90vh;
+    margin-top: 5rem;
+}
+.mainDiscountContent{
+display: block;
+padding: 10rem 0;
+}
+.mainDiscountText{
+    font-family: iranLight;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #10AB81;
+}
+.mainDiscountTitle{
+    margin: 1.3rem 0;
+    font-family: iranBlack;
+    font-size: 2.5rem;
+    color: #071C1F;
+}
+.mainDistcountParaph{
+    font-family: iranMedium;
+    font-size: 0.8rem;
+    max-width: 30rem;
+    line-height: 1.7;
+    color: #9A9FA7;
+    margin-bottom: 1.5rem;
+}
+.mainDiscountButton{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 2.5rem;
+    background-color: #10AB81;
+    color: #fff;
+    border-radius: 0.5rem;
+    margin: 2rem 0;
+    font-family: iranMedium ;
+    transition: all 0.3s linear;
+}
+.mainDiscountButton:hover{
+    background-color: #fff;
+    color: #10AB81;
+}
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}

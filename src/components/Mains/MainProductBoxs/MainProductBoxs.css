@@ -1,0 +1,120 @@
+.mainProductBoxs{
+    margin-top: 4rem;
+    background-color: #F2F6F7;
+    padding: 4rem 0 3rem 0;
+}
+.mainProductBoxsWrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+.productBoxItem{
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid #E5EAEE;
+    background-color: #fff;
+    width: 380px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.productBoxItem:hover{
+    box-shadow: 0 0 15px 10px #E6EBEC ;
+}
+.productBoxItemImg{
+
+}
+.ProductBoxItemImage{
+    width: 100px;
+}
+.productBoxItemContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.productBoxItemIcons{
+    margin-bottom: 0.7rem;
+}
+.productBoxItemIcon{
+    color: #FFB800;
+    margin: 0 0.1rem;
+    transition: all 0.3s linear;
+}
+.productBoxItemIcon:hover{
+    color: #10AB81;
+}
+.productBoxItemName{
+    font-family: iranMedium;
+    margin-bottom: 0.8rem;
+    color: #071C1F;
+    transition: all 0.3s linear;
+}
+.productBoxItemName:hover{
+    color: #10AB81;
+}
+.productBoxItemPrices{
+    display: flex;
+    align-items: center;
+    font-family: iranLight;
+    color: #10AB81;
+    margin-bottom: 0.6rem;
+}
+.productBoxItemPrice{
+    margin-left: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.productBoxItemPriceOff{
+    display: block;
+    position: relative;
+    color: #011f17b4;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.productBoxItemPriceOff::before{
+    content: "";
+    position: absolute;
+    bottom: 0.5rem;
+    width: 3rem;
+    height: 0.1rem;
+    background-color: black;
+    transform: rotate(-20deg);
+}
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .mainProductBoxsWrapper{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .mainProductBoxsWrapper{
+        justify-content:center ;
+    }
+    .productBoxItem{
+        width: 330px;
+        margin:0.6rem 1rem;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}

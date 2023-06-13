@@ -1,0 +1,92 @@
+.navCenterRes{
+    margin: 0.7rem 0;
+}
+.navCenterResWrapper{
+    border: 1px solid #E5EAEE;
+    cursor: pointer;
+    display: block;
+    position: relative;
+}
+.navCenterResTitleIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+.navCenterResTitle{
+    font-family: iranBold;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #5C727D;
+}
+.navCenterResIcon{
+    font-size: 1.5rem;
+}
+
+.navCenterResItems{
+    padding: 0 2rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    height: 100vh;
+    width: 300px;
+    z-index: 999;
+}
+
+.navCenterResItemLogo{
+    margin: 4rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E5EAEE;
+}
+.navCenterLogo{
+
+}
+.navCenterResSearch{
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    border: 1px solid #5C727D;
+    overflow: hidden;
+}
+.navCenterResInputSearch{
+    display: flex;
+    width: 80%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    padding: 0 0.3rem;
+}
+.navCenterResInputSearch::placeholder{
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #5C727D;
+}
+.navCenterResSearchIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: #fff;
+    font-size: 1.1rem;
+}
+.navCenterResMenus{
+    margin-top: 3rem;
+}
+.navCenterResMenu{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.navCenterResLink{
+    text-decoration: none;
+    font-family: iranBold;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #5C727D;
+    transition: all 0.3s linear;
+}
+
+.navCenterResLink:hover{
+    color: #10ab81;
+}

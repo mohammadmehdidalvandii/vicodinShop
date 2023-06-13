@@ -1,0 +1,82 @@
+.aboutHeader{
+    margin-top: 3rem;
+}
+.aboutHeaderWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutHeaderRight{
+    margin-bottom: 2rem;
+}
+.aboutHeaderImg{
+    width: 500px;   
+
+}
+.aboutHeaderleft{
+
+}
+.aboutHeaderLeftDescription{
+    margin-right: 2rem;
+}
+.aboutHeaderTilte{
+    max-width: 30rem;
+    margin-bottom: 2rem;
+    font-family: iranBlack;
+    font-size: 2.5rem;
+}
+.aboutHeaderParaph{
+    margin-bottom: 2rem;
+    font-family: iranLight;
+    font-size: 0.9rem;
+    color: #5C727D;
+
+}
+.aboutHeaderCheckBox{
+
+}
+.aboutHeaderCheckBoxTextIcon{
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+.aboutHeaderCheckBoxIcon{
+    margin-left: 0.3rem;
+    color: #10AB81;
+}
+.aboutHeaderCheckBoxText{
+    font-family: iranLight;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #5C727D;
+}
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .aboutHeaderWrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .aboutHeaderImg{
+        max-width: 100%;
+    }
+}

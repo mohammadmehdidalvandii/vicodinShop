@@ -1,0 +1,191 @@
+.footerTop{
+    background-color: #171B2A;
+}
+.footerTopWrapper,
+.footerDownWrapper{
+    padding: 3rem 1rem 0 1rem;
+}
+.footerTopItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.footerTopItem{
+    list-style-type: none;
+    margin-right: 1rem;
+}
+.footerTopData{
+    margin-bottom: 1rem;
+    font-family: iranLight;
+    font-size: 1rem;
+    color: #fff;
+}
+.footerTopImg{
+
+}
+.footerTopParaph{
+    max-width: 12rem;
+    font-family: iranLight;
+    font-size: 0.8rem;
+    color: #fff;
+}
+.footerTopIcon{
+    color: #10Ab81;
+    margin-left: 1rem;
+}
+.footerTopMedia{
+    display: flex;
+}
+.footerTopLink{
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+}
+.footerTopLinkIcon{
+    color: #fff;
+    transition: all 0.3s linear;
+}
+.footerTopLinkIcon:hover{
+    color: #10Ab81;
+}
+
+.footerTopTilte{
+    font-family: iranBlack;
+    font-size: 1.5rem;
+
+}
+.footerTopText{
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: all 0.3s linear;
+    
+}
+.footerTopText::before{
+    content: "";
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: -0.5rem;
+    width: 0;
+    height: 0.2rem;
+    background-color: #10Ab81;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+}
+.footerTopText:hover{
+    color: #10Ab81;
+}
+.footerTopText:hover::before{
+    width: 2.5rem;
+    background-color: #ffff;
+}
+.footerTopNews{
+    max-width:15rem;
+    font-family: iranLight;
+    font-size: 1.1rem;
+    color: #fff;  
+    margin-bottom:3rem;
+}
+.footerTopForm{
+    max-width: 300px;
+    height: 3rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+.footerTopInput{
+    max-width: 250px;
+    height: inherit;
+    border: none;
+    outline: none;
+    padding-right: 0.7rem;
+}
+.footerTopInputIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: inherit;
+    font-size: 1.9rem;
+    background-color: #10Ab81;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+.footerTopInputIcon:hover{
+    background-color: #071C1F;
+}
+.footerTopTextLink{
+    font-family: iranLight;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.footerTopTextLinkImg{
+    width: 250px;
+}
+.footerDown{
+    background-color: #282B38;
+}
+.footerDownItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+.footerDownLeft{
+    color: #fff;
+}
+.footerDownCopyRight{
+      font-family: iranBold;
+      font-size: 1rem;  
+}
+.footerDownRight{
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+}
+.footerDownLink{
+    text-decoration: none;
+    color: #fff;
+    font-family: iranLight;
+    font-size: 1rem;
+    margin-right: 1rem;
+    transition: all 0.3s linear;
+}
+.footerDownLink:hover{
+    color: #10Ab81;
+}
+
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .footerTopItems,
+    .footerDownRight{
+        justify-content: flex-start;
+    }
+}

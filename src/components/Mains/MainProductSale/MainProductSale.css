@@ -1,0 +1,156 @@
+.mainProductSale{
+    margin-top: 4rem;
+}
+.mainProductSaleWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.mainProductSaleItem{
+    display: block;
+    background-color: #fff;
+    border: 2px solid #F6F6F6;
+    max-width: 260px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-bottom: 2rem;
+}
+.mainProductSaleItem:hover{
+    box-shadow: 0 0 15px 10px #F4F5F5;
+}
+.mainProductSaleItem:hover .mainProductSaleButton{
+    opacity: 1;
+    transform: scale(1);
+}
+.mainProductSaleImgText{
+    position: relative;
+
+}
+.mainProductSaleImg{
+    width: 250px;
+    object-fit: cover;
+}
+.mainProductSaleText{
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 3rem;
+    height: 0,8rem;
+    background-color: #10AB81;
+    color: #fff;
+    font-family: iranLight;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.mainProductSaleButton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 3px solid #cecece;
+    border-radius: 0.4rem;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.3s linear;
+}
+.mainProductSaleButton:hover{
+    border: 3px solid #10AB81;
+}
+.mainProductSaleBtnLink{
+    font-size: 1.3rem;
+    color: #5C727D;
+}
+.mainProductSaleBtnIcon{
+    transition: all 0.3s linear 
+}
+.mainProductSaleBtnIcon:hover{
+    color: #10AB81;
+}
+.mainProductSaleIcons{
+    display: block;
+    margin: 1rem 1rem 1rem 0;
+    color: #FFB800;
+}
+.mainProductSaleIcon{
+    transition: all 0.3s linear;
+}
+.mainProductSaleIcon:hover{
+    color: #10AB81;
+}
+.mainProductSaleName{
+    margin: 1rem 1rem 1rem 0;
+    color: #071C1F;
+    font-family: iranBlod;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.mainProductSaleName:hover{
+    color: #10AB81;
+}
+.mainProductSalePrices{
+    font-family: iranLight;
+    cursor: pointer;
+    margin: 1rem 1rem 1rem 0;
+}
+.mainProductSalePrice{
+    font-size: 0.9rem;
+    color: #071C42;
+    margin-left: 0.5rem;
+}
+.mainProductSalePriceOff{
+    color: red;
+    font-size: 0.7rem;
+    position: relative;
+}
+.mainProductSalePriceOff::before{
+    content: "";
+    position: absolute;
+    bottom: 0.3rem;
+    width: 3.5rem;
+    height: 0.1rem;
+    background-color: black;
+    transform: rotate(-20deg);
+}
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .mainProductSaleWrapper{
+        justify-content: center;
+    }
+   .mainProductSaleItem{
+    max-width: 100%;
+   }
+}

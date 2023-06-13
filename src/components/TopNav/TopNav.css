@@ -1,0 +1,51 @@
+.topNav{
+    margin: 0.3rem 0;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.topNavWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topNavLeft{
+
+}
+.topNavLink{
+    text-decoration: none;
+    margin-left: 0.4rem;
+    font-family: iranMedium;
+    font-size: 0.8rem;
+    color: #5C727D;
+    transition: all 0.3s linear;
+}
+.topNavLink:hover{
+    color: #11AB81;
+}
+.topNavLinkIconLeft{
+    color: #11AB81;
+    margin: 0 0.3rem;
+    font-size: 1rem;
+}
+.topNavright{
+
+}
+.topNavMedia{
+}
+.topNavLinkRightIcon{
+    font-family: iranMedium;
+    font-size: 1rem;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+    .topNavWrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

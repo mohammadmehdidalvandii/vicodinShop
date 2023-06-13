@@ -1,0 +1,78 @@
+.aboutService{
+    margin-top: 4rem;
+    background-color: #F2F6F7;
+    
+}
+.aboutServiceWrapper{
+    padding: 3rem 0;
+}
+.aboutServiceItems{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutServiceItem{
+    border: 1px solid #E8ECED;
+    background-color: #FFF;
+    padding: 2rem 1rem;
+    margin-bottom: 0.6rem;
+}
+.aboutServiceIconTitle{
+    display: flex;
+    align-items: center;
+}
+.aboutServiceBox{
+    
+}
+.aboutServiceIcon{
+    font-size: 3.2rem;
+    color: #10ab81;
+}
+
+.aboutServiceTitle{
+    font-family: iranBold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 1rem;
+    transition: all 0.3s linear;
+}
+.aboutServiceTitle:hover{
+    color: #10ab81;
+}
+.aboutServiceDescription{
+    margin-top: 0.3rem;
+    max-width: 20rem;
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #5C7291;
+}
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .aboutServiceItems{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}

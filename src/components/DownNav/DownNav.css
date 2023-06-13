@@ -1,0 +1,164 @@
+.downNav{
+    margin: 1rem 0;
+}
+.downNavWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.downNavLeft{
+    flex-basis: 70%;
+}
+.downNavItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.downNavItem{
+    display: block;
+    flex-basis: 30%;
+    background-color: #10AB81;
+    color: #fff;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 2.5rem;
+    position: relative;
+}
+.downNavItemsButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.itemsButton{
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.itemsButtonIcon{
+    margin-left: 0.5rem;
+}
+.itemsButtonIconLeft{
+  margin-right: 4rem;
+}
+
+
+.downNavBarMenu{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -27rem;
+    display: block;
+    flex-basis: 30%;
+    width: 100% ;
+    background-color: #fff;
+    border: 1px solid #E5EAEE;
+    z-index: 999;
+}
+.itemsBarMenu{
+    display: block;
+}
+.itemBarMenu{
+   border-bottom: 1px solid #E5EAEE;
+   padding: 1rem 0.4rem ;
+}
+.itemBarMenuLink{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: iranLight;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #073842;
+    transition: all 0.3s linear;
+}
+.itemBarMenuLink:hover{
+    color: #10AB81;
+}
+.itemBarMenuIcon{
+    margin-left: 0.5rem;
+}
+
+
+.downNavMenus{
+    margin-right: 2rem;
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.downNavMenuItems{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuItem{
+    margin-left: 1.5rem;
+}
+.menuItemLink{
+    text-decoration: none;
+    font-family: iranLight;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #071C1F;
+    transition: all 0.3s linear;
+}
+.menuItemLink:hover{
+    color: #10AB81;
+}
+.downNavRight{
+    text-align: left;
+    flex-basis: 30%;
+}
+.downNavRightLink{
+    text-decoration: none;
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #071C1F;
+    transition: all 0.3s linear;
+
+}
+.downNavRightLink:hover{
+    color: #10AB81;
+}
+.downNavRightLinkIcon{
+    margin-right: 0.3rem;
+    color: #10AB81;
+}
+
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .downNavRightLink{
+        display: none;
+    }
+    .downNavBarMenu{
+        bottom: -31rem;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}

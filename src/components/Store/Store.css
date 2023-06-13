@@ -1,0 +1,38 @@
+.store{
+    margin: 5rem 0 10rem 0;
+}
+.storeWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+.storeWrapper{
+flex-wrap: wrap ;
+flex-direction: column-reverse;
+
+}
+
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}

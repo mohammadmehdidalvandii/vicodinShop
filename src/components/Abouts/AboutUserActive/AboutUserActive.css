@@ -1,0 +1,71 @@
+.aboutUserActive{
+    background-color: #F2F6F7;
+    margin-top: 5rem;
+}
+.aboutUserActiveWrapper{
+    
+}
+.aboutUserActiveItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 1rem;
+}
+.aboutUserActiveItem{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.aboutUserActiveContent{
+    display: block;
+    text-align: center;
+}
+.aboutUserActiveIcon{
+    font-size: 5rem;
+    color: #10ab81;
+
+}
+.aboutUserActiveNumber{
+        font-family: iranBold;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #000;
+        margin: 1rem 0;
+}
+.aboutUserActiveText{
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #5C727D;
+}
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+    .aboutUserActiveItems{
+        justify-content:space-around ;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .aboutUserActiveItems{
+        flex-wrap: wrap;
+        justify-content:center ;
+    }
+}

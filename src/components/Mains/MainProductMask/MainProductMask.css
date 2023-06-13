@@ -1,0 +1,104 @@
+.mainProductMask{
+    margin-top: 4rem;
+    background: url(../../../../public/images/main-2.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%;
+}
+.mainProductMaskWrapper{
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: center;
+   
+}
+.mainProductMaskContent{
+    margin: 4rem 0;
+}
+.mainProductMaskText{
+    font-family: iranLight;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #10Ab81;
+    margin-left: 1rem;
+}
+.mainProductMaskTitle{
+    margin: 1rem 0;
+    font-family: iranBlack;
+    font-size: 2rem;
+    font-weight: bold;
+    max-width: 25rem;
+}
+.mainProductMaskParaph{
+    max-width: 35rem;
+    margin-bottom: 1rem;
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #5C727D;
+}
+.mainProductMaskItems{
+    display: flex;
+    justify-content: flex-start;
+}
+.mainProductMaskLeft{
+margin-left: 4rem;
+}
+.mainProductMaskItem{
+    margin-bottom: 1rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.mainProductMaskIcon{
+    margin-left: 0.4rem;
+    color: #10Ab81;
+    font-size: 2rem;
+}
+.mainProductMaskTxt{
+    font-family: iranLight;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #5C727D;
+}
+.mainProductMaskButton{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #10Ab81;
+    font-family: iranMedium;
+    transition: all 0.3s linear;
+}   
+.mainProductMaskButton:hover{
+    color: black;
+}
+
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .mainProductMaskContent{
+        color: #000;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}

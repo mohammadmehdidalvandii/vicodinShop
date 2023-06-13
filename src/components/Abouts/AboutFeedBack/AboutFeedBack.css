@@ -1,0 +1,80 @@
+.aboutFeedBack{
+    margin-top: 4rem;
+    background-color: #F2F6F7;
+}
+.aboutFeedBackWrappear{
+    margin-top: 2rem;
+    padding: 3rem 0;
+}
+.aboutFeedBackItems{
+    /* display: flex;
+    justify-content: space-between; */
+    margin-top: 2rem;
+}
+.aboutFeedBackItem{
+    display: flex;
+    border: 1px solid #f6f6f6;
+    background-color: #fff;
+    padding: 1.5rem 1rem;
+    margin-right: 1rem;
+    direction: rtl;
+}
+.aboutFeedBackImg{
+    width: 140px;
+}
+
+.aboutFeedBackContent{
+    margin-right: 1rem;
+}
+.aboutFeedBackText{
+    font-family: iranLight;
+    font-size: 0.9rem;
+    color: #607580;
+    max-width: 21rem;
+}
+.aboutFeedBackUserName{
+    font-family: iranBold;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 500;
+}
+.aboutFeedBackSide{
+    font-family: iranLight;
+    font-size: 1rem;
+    color: #10ab81;
+}
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .aboutFeedBack{
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .aboutFeedBackItem{
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+    .aboutFeedBackItem{
+        max-width: 450px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .aboutFeedBackItem{
+        max-width: 300px;
+    }
+}

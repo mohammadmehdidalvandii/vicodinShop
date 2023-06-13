@@ -1,0 +1,88 @@
+.aboutExpert{
+    margin-top: 5rem;
+}
+.aboutExpertWrapper{
+
+}
+.aboutExpertItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.aboutExpertItem{
+    border: 1px solid #F1F1F1;
+    margin-bottom: 1rem;
+    max-width: 340px;
+    transition: all 0.3s linear;
+}
+.aboutExpertItem:hover{
+    box-shadow: 0 0 15px 10px #F3F4F4;
+}
+.aboutExpertImg{
+    max-width: 355px;
+}
+.aboutExpertNameJob{
+    display: block;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+.aboutExpertName{
+    font-family: iranBold;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.aboutExpertJob{
+    font-family: iranLight;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #10ab81;
+}
+.aboutExpertMedia{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.aboutExpertLink{
+    color: #5C727D;
+    margin: 0 0.3rem;
+    transition: all 0.3s linear;
+}
+.aboutExpertLink:hover{
+    color: #10ab81;
+}
+.aboutExpertLinkIcon{
+    font-size: 1.1rem;
+}
+
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .aboutExpertItems{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+    .aboutExpertImg{
+        max-width: 100%;
+    }
+}

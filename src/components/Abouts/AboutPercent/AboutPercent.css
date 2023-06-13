@@ -1,0 +1,82 @@
+.aboutPercent{
+   background-color: #F2F6F7; 
+}
+.aboutPercentWrapper{
+
+}
+.aboutPercentItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.aboutPercentItem{
+    margin: 3rem  1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutPercentProgress{
+    border: 10px solid #10ab81 ;
+    background-color: #eee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    position: relative;
+}
+
+.aboutPercentProgressText{
+    font-family: iranBlack;
+    font-size: 2rem;
+    color: #5C727D;
+}
+.aboutPercentContent{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutPercentContentTitle{
+    font-family: iranBold;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.aboutPercentContentText{
+    font-family: iranLight;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #5C72A3;
+}
+ /*  Media Query  */
+
+ @media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .aboutPercentItems{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+    
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}
